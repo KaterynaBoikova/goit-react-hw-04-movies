@@ -1,0 +1,12 @@
+.castUl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.castItem {
+  width: 260px;
+  height: 500px;
+}
+.castItem > img {
+  width: 100%;
+}

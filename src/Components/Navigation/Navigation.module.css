@@ -1,0 +1,18 @@
+.nav {
+  border-bottom: 1px solid lightgrey;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.nav_item {
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+}
+.nav_link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.nav_link_active {
+  text-decoration: none;
+  font-size: 20px;
+  color: darkred;
+}

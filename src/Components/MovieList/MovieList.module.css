@@ -1,0 +1,17 @@
+.homeList {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.homeLinks {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+}
+.homeListItem {
+    margin-bottom: 10px;
+    list-style: none;
+}
+.homeLinks:hover {
+    color: darkred;
+}

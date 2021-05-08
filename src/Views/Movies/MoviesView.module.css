@@ -1,0 +1,14 @@
+.form {
+  margin-top: 20px;
+}
+.inputSearch {
+  height: 30px;
+  width: 200px;
+  border: 1px solid darkred;
+}
+.searchBtn {
+  height: 30px;
+  width: 70px;
+  border: 1px solid darkred;
+  color: darkred;
+}
