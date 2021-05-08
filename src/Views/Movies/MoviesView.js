@@ -40,6 +40,9 @@ class Movies extends Component {
     const prevQuery = getQuery(prevProps);
     const nextQuery = getQuery(this.props);
     if (prevQuery !== nextQuery) {
+      if(nextQuery===undefined){
+        this.setState({ moviesFound: [] })
+        return;}
       fetch.fetchSearchedMovies(nextQuery).then((results) => {
         this.setState({ moviesFound: results });
       });
@@ -58,6 +61,7 @@ class Movies extends Component {
             placeholder="Search"
             aria-label="Search"
             className={styles.inputSearch}
+            required
           />
           <button type="submit" className={styles.searchBtn}>
             Search
